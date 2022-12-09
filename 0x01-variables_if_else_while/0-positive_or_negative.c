@@ -15,9 +15,9 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
 		return ("%d is positive\n", n);
-	if (n == 0)
-		return ("%d is zero\n", n);
-	if (n < 0)
+	else if (n < 0)
 		return ("%d is negative\n", n);
+	else
+		return ("%d is zero\n", n);
 	return (0);
 }
