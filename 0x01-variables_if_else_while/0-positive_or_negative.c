@@ -1,11 +1,10 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
-#include <stdio.h>
+#include <stdio>
 /**
  * main - print random number
  *
- * Return: Alaways 0
+ * Return: 0
  */
 int main(void)
 {
